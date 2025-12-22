@@ -279,6 +279,11 @@
     <div class="section">
       <table class="shipment-info">
         <tr>
+          <td></td>
+          <td></td>
+          <td>MEASUREMENT: <span id="measurement"></span></td>
+        </tr>
+        <tr>
           <td>IMP/EXP: <span id="lot_no"></span></td>
           <td>Flight Date: <span id="flight_date"></span></td>
           <td>CNEE: <span id="factory_name"></span></td>
@@ -371,7 +376,7 @@
       // Simple fields
       const fields = [
         'customer_name_kh', 'customer_name', 'address_kh', 'address',
-        'phone', 'vat_tin', 'invoice_no', 'date', 'lot_no', 'flight_date',
+        'phone', 'vat_tin', 'invoice_no', 'date', 'measurement', 'lot_no', 'flight_date',
         'factory_name', 'declaration', 'vessel', 'port', 'cargo_type',
         'container', 'hbl', 'etd', 'qty', 'invpl', 'subtotal',
         'vat_amount', 'grand_total', 'grand_total_khr', 'exchange_rate',
